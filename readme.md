@@ -6,7 +6,7 @@ The CDM repository mostly links into other repositories that are public by defau
 The CDM repository wiki will be populated in due time, mostly for guidance of non-participants>
 
 Currently, following repositories are available:
-* [SemanticRSM)[https://github.com/UICrail/SemanticRSM]
+* [SemanticRSM](https://github.com/UICrail/SemanticRSM)
 
 In addition, ongoing tasks are summed up under the (non-public) MOTIONAL "project" (in the sense of Github).
                                                                                                                               
