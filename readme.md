@@ -6,7 +6,7 @@ The CDM repository mostly links into other repositories that are public by defau
 The CDM repository wiki will be populated in due time, mostly for guidance of non-participants>
 
 Currently, following repositories are available:
-* [SemanticRSM](https://github.com/UICrail/SemanticRSM)
+* [SemanticRSM](https://github.com/UICrail/SemanticRSM), which currently includes infrastructure topology and geometry, as well as rolling stock elements. Other RSM areas will be added later, as packages are rewritten in RDF/OWL.
 
 In addition, ongoing tasks are summed up under the (non-public) [MOTIONAL "project"](https://github.com/orgs/UICrail/projects/3) (in the sense of Github).
                                                                                                                               
