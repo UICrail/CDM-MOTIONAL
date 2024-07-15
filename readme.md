@@ -7,6 +7,7 @@ The CDM repository wiki will be populated in due time, mostly for guidance of no
 
 Currently, following repositories are available:
 * [SemanticRSM](https://github.com/UICrail/SemanticRSM), which currently includes infrastructure topology and geometry, as well as rolling stock elements. Other RSM areas will be added later, as packages are rewritten in RDF/OWL.
+* [CDM-IFC](https://github.com/UICrail/CDM-IFC), providing backgrounds regarding IFC (Industry Foundation Classes) and their usage in the CDM.
 
 In addition, ongoing tasks are summed up under the (non-public) [MOTIONAL "project"](https://github.com/orgs/UICrail/projects/3) (in the sense of Github).
                                                                                                                               
