@@ -1,5 +1,5 @@
-The CDM-MOTIONAL public repository and dependent repositories shall host the Conceptual Data Model, a public MOTIONAL deliverable.
 The Conceptual Data Model is a product of [Europe's Rail MOTIONAL Project](https://projects.rail-research.europa.eu/eurail-fp1/).
+The CDM-MOTIONAL public repository and dependent repositories shall host the Conceptual Data Model, a public MOTIONAL deliverable.
 The UICrail GitHub is used, awaiting a possible setup of repositories under Europe's Rail.
 
 The CDM repository mostly links into other repositories that are public by default; some of them may result in being private (e.g. for hosting non-public data for testing purposes).
