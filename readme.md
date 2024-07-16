@@ -5,7 +5,7 @@ The CDM is hosted here, awaiting a possible setup of repositories under Europe's
 The CDM repository mostly links into other repositories that are public by default; some of them may result in being private (e.g. for hosting non-public data for testing purposes).
 The CDM repository wiki will be populated in due time, mostly for guidance of non-participants.
 
-[About the CDM, its history, and rationale, see the Wiki.](https://github.com/UICrail/CDM/wiki/CDM-Home-Page)
+[About the CDM, its history, and rationale, see the Wiki home page.](https://github.com/UICrail/CDM/wiki/CDM-Home-Page)
 
 Currently, following repositories are available:
 * [SemanticRSM](https://github.com/UICrail/SemanticRSM), which currently includes infrastructure topology and geometry, as well as rolling stock elements. Other RSM areas will be added later, as packages are rewritten in RDF/OWL.
