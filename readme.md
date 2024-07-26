@@ -1,4 +1,4 @@
-The Conceptual Data Model is a product of [Europe's Rail MOTIONAL Project](https://projects.rail-research.europa.eu/eurail-fp1/).
+The [Conceptual Data Model](https://github.com/UICrail/CDM-MOTIONAL/wiki/01-%E2%80%90-What-is-the-CDM%3F) is a product of [Europe's Rail MOTIONAL Project](https://projects.rail-research.europa.eu/eurail-fp1/).
 The CDM-MOTIONAL public repository and dependent repositories shall host the Conceptual Data Model, a public MOTIONAL deliverable.
 The UICrail GitHub is used, awaiting a possible setup of repositories under Europe's Rail.
 
