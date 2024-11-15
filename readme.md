@@ -16,6 +16,8 @@ Currently, following repositories are available:
 * [CDM-IFC](https://github.com/UICrail/CDM-IFC), providing backgrounds regarding [IFC](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) (Industry Foundation Classes), by [buildingSMART International](https://www.buildingsmart.org/), and their usage in the CDM.
 * [CDM-Signalling](https://github.com/UICrail/CDM-Signalling), providing links with the comprehensive [EULYNX DataPrep](https://eulynx.eu/resource-hub-dataprep-model/) model for signalling data.
 
+Under the hood, the CDM also leverages established ontologies or schemas like [IFC](https://w3id.org/ifc/IFC4X3_ADD2#), [QUDT](http://qudt.org/schema/qudt/), [QUDT (unit)](https://qudt.org/2.1/vocab/unit/), [XSD](http://www.w3.org/2001/XMLSchema#), [GeoSPARQL](http://www.opengis.net/ont/geosparql), [W3C SSN](https://www.w3.org/ns/ssn/), [W3C SOSA](https://www.w3.org/ns/sosa/), ...
+
 # Datasets
 
 [Europe's Rail MOTIONAL Project](https://projects.rail-research.europa.eu/eurail-fp1/) is working on making available various datasets available, using the CDM vocabulary. More information available on the [Wiki](https://github.com/UICrail/CDM-MOTIONAL/wiki/03-%E2%80%90-Datasets)
