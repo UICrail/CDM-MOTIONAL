@@ -1,0 +1,289 @@
+@prefix : <http://example.org/railML3.2_import#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix list: <http://www.w3.org/ns/list#> .
+@prefix rsm_geosparql: <http://cdm.ovh/rsm/adapters/geosparql_adapter#> .
+@prefix rsm_positioning: <http://cdm.ovh/rsm/positioning/positioning#> .
+@prefix rsm_topo: <http://cdm.ovh/rsm/topology/0.1/topology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:ne_11 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_11_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "200.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(390.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(430.0 40.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_11_port_0,
+        :ne_11_port_1 .
+
+:ne_133 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_133_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "1450.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(310.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(390.0 40.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_133_port_0,
+        :ne_133_port_1 .
+
+:ne_148 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_148_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "200.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(450.0 20.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "0.5"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(470.0 0.0)"^^geo:wktLiteral ;
+                    list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                            rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(490.0 0.0)"^^geo:wktLiteral ;
+                            list:hasNext list:EmptyList ] ] ] ;
+    rsm_topo:hasPort :ne_148_port_0,
+        :ne_148_port_1 .
+
+:ne_15 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_15_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "550.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(0.0 20.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "0.818"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(90.0 20.0)"^^geo:wktLiteral ;
+                    list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                            rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(110.0 40.0)"^^geo:wktLiteral ;
+                            list:hasNext list:EmptyList ] ] ] ;
+    rsm_topo:hasPort :ne_15_port_0,
+        :ne_15_port_1 .
+
+:ne_19 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_19_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "400.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(110.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(190.0 40.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_19_port_0,
+        :ne_19_port_1 .
+
+:ne_23 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_23_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "100.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(430.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(450.0 20.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_23_port_0,
+        :ne_23_port_1 .
+
+:ne_27 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_27_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "700.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(430.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(570.0 40.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_27_port_0,
+        :ne_27_port_1 .
+
+:ne_3 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_3_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "550.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(0.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(110.0 40.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_3_port_0,
+        :ne_3_port_1 .
+
+:ne_30 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_30_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "300.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(390.0 20.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(450.0 20.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_30_port_0,
+        :ne_30_port_1 .
+
+:ne_34 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_34_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "600.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(450.0 20.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(570.0 20.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_34_port_0,
+        :ne_34_port_1 .
+
+:ne_7 a rsm_topo:LinearElement ;
+    rsm_geosparql:hasGeometry :ne_7_geometry ;
+    rsm_geosparql:hasNominaMetriclLength "1850.0"^^xsd:float ;
+    rsm_positioning:associatedPositioningSystem [ a rsm_positioning:AssociatedPosition ;
+            rsm_positioning:intrinsicCoordinate "0.0"^^xsd:float ;
+            rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(190.0 40.0)"^^geo:wktLiteral ;
+            list:hasNext [ a rsm_positioning:AssociatedPosition ;
+                    rsm_positioning:intrinsicCoordinate "1.0"^^xsd:float ;
+                    rsm_positioning:position "<http://example.org/railML3.2_import#Canvas> POINT(310.0 40.0)"^^geo:wktLiteral ;
+                    list:hasNext list:EmptyList ] ] ;
+    rsm_topo:hasPort :ne_7_port_0,
+        :ne_7_port_1 .
+
+:ne_11_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(390.0 40.0, 430.0 40.0)"^^geo:wktLiteral .
+
+:ne_133_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(310.0 40.0, 390.0 40.0)"^^geo:wktLiteral .
+
+:ne_148_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(450.0 20.0, 470.0 0.0, 490.0 0.0)"^^geo:wktLiteral .
+
+:ne_15_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(0.0 20.0, 90.0 20.0, 110.0 40.0)"^^geo:wktLiteral .
+
+:ne_19_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(110.0 40.0, 190.0 40.0)"^^geo:wktLiteral .
+
+:ne_23_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(430.0 40.0, 450.0 20.0)"^^geo:wktLiteral .
+
+:ne_27_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(430.0 40.0, 570.0 40.0)"^^geo:wktLiteral .
+
+:ne_30_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(390.0 20.0, 450.0 20.0)"^^geo:wktLiteral .
+
+:ne_34_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(450.0 20.0, 570.0 20.0)"^^geo:wktLiteral .
+
+:ne_3_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(0.0 40.0, 110.0 40.0)"^^geo:wktLiteral .
+
+:ne_3_port_1 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_15_port_1,
+        :ne_19_port_0 ;
+    rsm_topo:navigableTo :ne_19_port_1 ;
+    rsm_topo:nonNavigableTo :ne_15_port_0 .
+
+:ne_7_geometry a rsm_geosparql:Geometry ;
+    geo:asWKT "<http://example.org/railML3.2_import#Canvas> LINESTRING(190.0 40.0, 310.0 40.0)"^^geo:wktLiteral .
+
+:ne_ml_7_port_0 rsm_topo:connectedWith :ne_ms_35_port_1 ;
+    rsm_topo:navigableTo :ne_ms_35_port_0 .
+
+:ne_ml_7_port_1 rsm_topo:connectedWith :ne_ms_36_port_0 ;
+    rsm_topo:navigableTo :ne_ms_36_port_1 .
+
+:ne_ms_35_port_1 rsm_topo:navigableTo :ne_ml_7_port_1 .
+
+:ne_ms_36_port_0 rsm_topo:navigableTo :ne_ml_7_port_0 .
+
+:ne_11_port_1 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_23_port_0,
+        :ne_27_port_0 ;
+    rsm_topo:navigableTo :ne_23_port_1,
+        :ne_27_port_1 .
+
+:ne_15_port_1 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_19_port_0 ;
+    rsm_topo:navigableTo :ne_19_port_1 ;
+    rsm_topo:nonNavigableTo :ne_3_port_0 .
+
+:ne_30_port_1 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_148_port_0,
+        :ne_34_port_0 ;
+    rsm_topo:navigableTo :ne_148_port_1,
+        :ne_34_port_1 ;
+    rsm_topo:nonNavigableTo :ne_23_port_0 .
+
+:ne_7_port_0 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_19_port_1 ;
+    rsm_topo:navigableTo :ne_19_port_0 .
+
+:ne_7_port_1 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_133_port_0 ;
+    rsm_topo:navigableTo :ne_133_port_1 .
+
+:ne_11_port_0 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_133_port_1 ;
+    rsm_topo:navigableTo :ne_133_port_0 .
+
+:ne_133_port_0 a rsm_topo:Port ;
+    rsm_topo:navigableTo :ne_7_port_0 .
+
+:ne_133_port_1 a rsm_topo:Port ;
+    rsm_topo:navigableTo :ne_11_port_1 .
+
+:ne_15_port_0 a rsm_topo:Port .
+
+:ne_23_port_1 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_148_port_0,
+        :ne_30_port_1,
+        :ne_34_port_0 ;
+    rsm_topo:navigableTo :ne_148_port_1,
+        :ne_34_port_1 ;
+    rsm_topo:nonNavigableTo :ne_30_port_0 .
+
+:ne_27_port_0 a rsm_topo:Port ;
+    rsm_topo:navigableTo :ne_11_port_0 ;
+    rsm_topo:nonNavigableTo :ne_23_port_1 .
+
+:ne_27_port_1 a rsm_topo:Port .
+
+:ne_34_port_0 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_148_port_0 ;
+    rsm_topo:navigableTo :ne_23_port_0,
+        :ne_30_port_0 ;
+    rsm_topo:nonNavigableTo :ne_148_port_1 .
+
+:ne_3_port_0 a rsm_topo:Port .
+
+:ne_148_port_0 a rsm_topo:Port ;
+    rsm_topo:navigableTo :ne_23_port_0,
+        :ne_30_port_0 ;
+    rsm_topo:nonNavigableTo :ne_34_port_1 .
+
+:ne_148_port_1 a rsm_topo:Port .
+
+:ne_19_port_0 a rsm_topo:Port ;
+    rsm_topo:navigableTo :ne_15_port_0,
+        :ne_3_port_0 .
+
+:ne_19_port_1 a rsm_topo:Port ;
+    rsm_topo:navigableTo :ne_7_port_1 .
+
+:ne_30_port_0 a rsm_topo:Port .
+
+:ne_34_port_1 a rsm_topo:Port .
+
+:ne_23_port_0 a rsm_topo:Port ;
+    rsm_topo:connectedWith :ne_27_port_0 ;
+    rsm_topo:navigableTo :ne_11_port_0 ;
+    rsm_topo:nonNavigableTo :ne_27_port_1 .
+
