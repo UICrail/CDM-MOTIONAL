@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<railML xmlns="https://www.railml.org/schemas/3.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml4rail3="https://www.railml.org/schemas/3.2/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2" xsi:schemaLocation="https://www.railml.org/schemas/3.2 https://www.railml.org/schemas/3.2/railml3.xsd">
+  <metadata>
+    <dc:creator xml:lang="en">Vivian Augele</dc:creator>
+    <dc:creator xml:lang="en">Torben Brand</dc:creator>
+    <dc:creator xml:lang="en">Thomas Nygreen</dc:creator>
+    <dc:creator xml:lang="en">Janne Moller</dc:creator>
+    <dc:date>2024-12-04T09:29:15.280319812Z</dc:date>
+    <dc:description xml:lang="en">Export from railOscope. Some certifications pending.</dc:description>
+    <dc:format>railML 3.2</dc:format>
+    <dc:identifier>3</dc:identifier>
+    <dc:language>no</dc:language>
+    <dc:publisher xml:lang="en">railOscope</dc:publisher>
+    <dc:source>https://railoscope.com/workspace/5c0e3000dc7adc0696c960e2?modelId=5c815c32137e0f14761f0ba8&amp;revision=262 (rev 262)</dc:source>
+    <!--Browsable url: https://railoscope.com/workspace/5c0e3000dc7adc0696c960e2?modelId=5c815c32137e0f14761f0ba8&revision=262 -->
+    <dc:source xml:lang="en">infrastructureVisualization: For id="vis01" used coordinate system ortho: y-axis vertical from bottom to top, x-axis horizontal from left to right</dc:source>
+    <dc:title>Simplest Example</dc:title>
+    <dc:type>railML</dc:type>
+  </metadata>
+  <common id="co_01">
+    <organizationalUnits>
+      <organizationalUnit code="BN" id="im01">
+        <isInfrastructureManager/>
+      </organizationalUnit>
+      <organizationalUnit code="BN" id="oru102">
+        <name language="no" name="Bane NOR"/>
+        <isInfrastructureManager/>
+      </organizationalUnit>
+    </organizationalUnits>
+    <speedProfiles>
+      <speedProfile id="spprf1" influence="increasing" isBasicSpeedProfile="true" mVersion="33">
+        <name language="en" name="basis"/>
+        <name language="no" name="normal"/>
+        <trainType type="all"/>
+      </speedProfile>
+      <speedProfile id="spprf2" influence="increasing" isBasicSpeedProfile="false" mVersion="33" maxCantDeficiency="153">
+        <name language="en" name="plus"/>
+        <name language="no" name="pluss"/>
+        <trainType type="all"/>
+      </speedProfile>
+    </speedProfiles>
+    <positioning>
+      <linearPositioningSystems>
+        <linearPositioningSystem endMeasure="3000.0" id="lps01_lin1" linearReferencingMethod="absolute" startMeasure="2000.0" units="metres">
+          <name language="en" name="Classic BaneData Mileage band Bergensbanen"/>
+          <isValid/>
+        </linearPositioningSystem>
+      </linearPositioningSystems>
+      <screenPositioningSystems>
+        <screenPositioningSystem id="sps01" pxX="200" pxY="80">
+          <isValid/>
+        </screenPositioningSystem>
+      </screenPositioningSystems>
+    </positioning>
+    <projects>
+      <project id="pr6921e524-bf24-145f-f9b3-8428457225c9">
+        <name language="no" name="&quot;Bruse&quot; brigde"/>
+        <projectArea ref="are101"/>
+        <alternative id="pra8b26d91f-791b-16f0-b980-da5ff7ee80e8">
+          <name description="Axcle load increase according to concept A2" language="no" name="Brigde improvement"/>
+        </alternative>
+        <phase id="prp6473936e-7fc0-996f-e56e-0db99c3020ca" startDate="2020-10-01">
+          <name language="no" name="As built"/>
+        </phase>
+      </project>
+    </projects>
+  </common>
+  <infrastructure id="is_01">
+    <topology>
+      <netElements>
+        <netElement id="ne_3" length="100.0">
+          <associatedPositioningSystem id="ne_3_aps01">
+            <intrinsicCoordinate id="ne_3_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2000.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_3_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_28" length="150.0">
+          <associatedPositioningSystem id="ne_28_aps01">
+            <intrinsicCoordinate id="ne_28_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_28_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_34" length="50.0">
+          <associatedPositioningSystem id="ne_34_aps01">
+            <intrinsicCoordinate id="ne_34_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_34_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_42" length="600.0">
+          <associatedPositioningSystem id="ne_42_aps01">
+            <intrinsicCoordinate id="ne_42_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_42_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_45" length="600.0">
+          <associatedPositioningSystem id="ne_45_aps01">
+            <intrinsicCoordinate id="ne_45_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_45_aps01_ic2" intrinsicCoord="0.167"/>
+            <intrinsicCoordinate id="ne_45_aps01_ic3" intrinsicCoord="0.833"/>
+            <intrinsicCoordinate id="ne_45_aps01_ic4" intrinsicCoord="1.0">
+              <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_66" length="30.0">
+          <associatedPositioningSystem id="ne_66_aps01">
+            <intrinsicCoordinate id="ne_66_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2970.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_66_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_70" length="100.0">
+          <associatedPositioningSystem id="ne_70_aps01">
+            <intrinsicCoordinate id="ne_70_aps01_ic1" intrinsicCoord="0.0">
+              <linearCoordinate measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_70_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_ml_3">
+          <name language="no" name="-OSL"/>
+          <elementCollectionUnordered id="ne_ml_3_ecu01">
+            <elementPart ref="ne_3"/>
+          </elementCollectionUnordered>
+          <associatedPositioningSystem id="ne_ml_3_aps01">
+            <intrinsicCoordinate id="ne_ml_3_aps01_ic0" intrinsicCoord="1.0">
+              <linearCoordinate measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_ml_3_aps01_ic1" intrinsicCoord="1.0">
+              <linearCoordinate measure="2000.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+        <netElement id="ne_ms_4">
+          <name language="no" name="OSL"/>
+          <elementCollectionUnordered id="ne_ms_4_ecu01">
+            <elementPart ref="ne_28"/>
+            <elementPart ref="ne_34"/>
+            <elementPart ref="ne_42"/>
+            <elementPart ref="ne_45"/>
+            <elementPart ref="ne_66"/>
+            <elementPart ref="ne_70"/>
+          </elementCollectionUnordered>
+          <associatedPositioningSystem id="ne_ms_4_aps01">
+            <intrinsicCoordinate id="ne_ms_4_aps01_ic0" intrinsicCoord="0.0">
+              <linearCoordinate measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_ms_4_aps01_ic1" intrinsicCoord="1.0">
+              <linearCoordinate measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+            <intrinsicCoordinate id="ne_ms_4_aps01_ic2" intrinsicCoord="1.0">
+              <linearCoordinate measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </intrinsicCoordinate>
+          </associatedPositioningSystem>
+        </netElement>
+      </netElements>
+      <netRelations>
+        <netRelation id="nr_28_0_34_0" navigability="None" positionOnA="0" positionOnB="0">
+          <elementA ref="ne_28"/>
+          <elementB ref="ne_34"/>
+        </netRelation>
+        <netRelation id="nr_28_0_42_1" navigability="Both" positionOnA="0" positionOnB="1">
+          <elementA ref="ne_28"/>
+          <elementB ref="ne_42"/>
+        </netRelation>
+        <netRelation id="nr_28_0_45_1" navigability="Both" positionOnA="0" positionOnB="1">
+          <elementA ref="ne_28"/>
+          <elementB ref="ne_45"/>
+        </netRelation>
+        <netRelation id="nr_28_1_66_0" navigability="Both" positionOnA="1" positionOnB="0">
+          <elementA ref="ne_28"/>
+          <elementB ref="ne_66"/>
+        </netRelation>
+        <netRelation id="nr_34_0_42_1" navigability="None" positionOnA="0" positionOnB="1">
+          <elementA ref="ne_34"/>
+          <elementB ref="ne_42"/>
+        </netRelation>
+        <netRelation id="nr_34_0_45_1" navigability="Both" positionOnA="0" positionOnB="1">
+          <elementA ref="ne_34"/>
+          <elementB ref="ne_45"/>
+        </netRelation>
+        <netRelation id="nr_3_1_70_0" navigability="Both" positionOnA="1" positionOnB="0">
+          <elementA ref="ne_3"/>
+          <elementB ref="ne_70"/>
+        </netRelation>
+        <netRelation id="nr_42_0_45_0" navigability="None" positionOnA="0" positionOnB="0">
+          <elementA ref="ne_42"/>
+          <elementB ref="ne_45"/>
+        </netRelation>
+        <netRelation id="nr_42_0_70_1" navigability="Both" positionOnA="0" positionOnB="1">
+          <elementA ref="ne_42"/>
+          <elementB ref="ne_70"/>
+        </netRelation>
+        <netRelation id="nr_42_1_45_1" navigability="None" positionOnA="1" positionOnB="1">
+          <elementA ref="ne_42"/>
+          <elementB ref="ne_45"/>
+        </netRelation>
+        <netRelation id="nr_45_0_70_1" navigability="Both" positionOnA="0" positionOnB="1">
+          <elementA ref="ne_45"/>
+          <elementB ref="ne_70"/>
+        </netRelation>
+        <netRelation id="nr_ne_ml_3_ne_ms_4" navigability="Both" positionOnA="1" positionOnB="0">
+          <elementA ref="ne_ml_3"/>
+          <elementB ref="ne_ms_4"/>
+        </netRelation>
+      </netRelations>
+      <networks>
+        <network id="nw01">
+          <level descriptionLevel="Micro" id="lv0">
+            <networkResource ref="ne_28"/>
+            <networkResource ref="ne_3"/>
+            <networkResource ref="ne_34"/>
+            <networkResource ref="ne_42"/>
+            <networkResource ref="ne_45"/>
+            <networkResource ref="ne_66"/>
+            <networkResource ref="ne_70"/>
+            <networkResource ref="nr_28_0_34_0"/>
+            <networkResource ref="nr_28_0_42_1"/>
+            <networkResource ref="nr_28_0_45_1"/>
+            <networkResource ref="nr_28_1_66_0"/>
+            <networkResource ref="nr_34_0_42_1"/>
+            <networkResource ref="nr_34_0_45_1"/>
+            <networkResource ref="nr_3_1_70_0"/>
+            <networkResource ref="nr_42_0_45_0"/>
+            <networkResource ref="nr_42_0_70_1"/>
+            <networkResource ref="nr_42_1_45_1"/>
+            <networkResource ref="nr_45_0_70_1"/>
+          </level>
+          <level descriptionLevel="Meso" id="lv1">
+            <networkResource ref="ne_ml_3"/>
+            <networkResource ref="ne_ms_4"/>
+            <networkResource ref="nr_ne_ml_3_ne_ms_4"/>
+          </level>
+        </network>
+      </networks>
+    </topology>
+    <geometry>
+      <gradientCurves>
+        <gradientCurve curveType="mixed" gradient="15.0" id="grc20" length="130.0">
+          <linearLocation applicationDirection="both" id="grc20_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="50.0" posEnd="150.0">
+              <linearCoordinateBegin measure="2850.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="0.0" posEnd="30.0">
+              <linearCoordinateBegin measure="2970.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </gradientCurve>
+        <gradientCurve curveType="mixed" gradient="0.0" id="grc56" length="1500.0">
+          <linearLocation applicationDirection="both" id="grc56_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="0.0" posEnd="50.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="0.0" posEnd="50.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </gradientCurve>
+      </gradientCurves>
+    </geometry>
+    <functionalInfrastructure>
+      <baliseGroups>
+        <baliseGroup id="bal13" numberOfBalisesInGroup="4">
+          <name description="Naming rule: [signal name]" language="no" name="A101"/>
+          <spotLocation applicationDirection="normal" id="bal13_sloc01" netElementRef="ne_3" pos="20.0">
+            <linearCoordinate measure="2020.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-ATC-845613" register="BaneData"/>
+          <applicationType value="NTC"/>
+          <functionalType value="other:norFF"/>
+        </baliseGroup>
+        <baliseGroup id="bal24">
+          <name description="Naming Rule: [signal name]" language="no" name="A101"/>
+          <spotLocation applicationDirection="normal" id="bal24_sloc01" netElementRef="ne_42" pos="150.0">
+            <linearCoordinate measure="2350.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-ATC-845612" register="BaneData"/>
+          <applicationType value="NTC"/>
+          <functionalType value="infill"/>
+        </baliseGroup>
+      </baliseGroups>
+      <borders>
+        <border id="ope1" isOpenEnd="true" type="area">
+          <spotLocation applicationDirection="reverse" id="ope1_sloc01" netElementRef="ne_3" pos="0.0">
+            <linearCoordinate measure="2000.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </border>
+        <border id="ope2" isOpenEnd="true" type="area">
+          <spotLocation applicationDirection="normal" id="ope2_sloc01" netElementRef="ne_66" pos="30.0">
+            <linearCoordinate measure="3000.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </border>
+        <border id="bor99" type="area">
+          <spotLocation applicationDirection="both" id="bor99_sloc01" netElementRef="ne_45" pos="169.0">
+            <linearCoordinate measure="2369.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </border>
+        <border id="bor100" type="area">
+          <spotLocation applicationDirection="both" id="bor100_sloc01" netElementRef="ne_45" pos="421.0">
+            <linearCoordinate measure="2621.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </border>
+        <border id="sig11_trc" type="other:track">
+          <spotLocation applicationDirection="both" id="sig11_trc_sloc01" netElementRef="ne_3" pos="100.0">
+            <linearCoordinate measure="2100.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </border>
+      </borders>
+      <bufferStops>
+        <bufferStop id="bus73">
+          <name description="Naming rule: [track name]" language="no" name="1"/>
+          <spotLocation applicationDirection="normal" id="bus73_sloc01" netElementRef="ne_34" pos="50.0">
+            <linearCoordinate measure="2850.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SST-800256" register="BaneData"/>
+        </bufferStop>
+      </bufferStops>
+      <derailersIS>
+        <derailerIS derailSide="left" id="drl9">
+          <name description="Naming rule: [roman numbers]" language="no" name="I"/>
+          <spotLocation applicationDirection="normal" id="drl9_sloc01" netElementRef="ne_42" pos="20.0">
+            <linearCoordinate measure="2220.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-SSP-871032" register="BaneData"/>
+        </derailerIS>
+        <derailerIS derailSide="left" id="drl107">
+          <spotLocation applicationDirection="reverse" id="drl107_sloc01" netElementRef="ne_45" pos="75.0">
+            <linearCoordinate measure="2275.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </derailerIS>
+      </derailersIS>
+      <electrifications>
+        <electrificationSection contactLineType="overhead" id="elc22">
+          <linearLocation applicationDirection="both" id="elc22_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="20.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2120.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="0.0" posEnd="50.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="0.0" posEnd="150.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="0.0" posEnd="30.0">
+              <linearCoordinateBegin measure="2970.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="[code from BD]" register="BaneData"/>
+        </electrificationSection>
+        <electrificationSection contactLineType="none" id="elc85">
+          <linearLocation applicationDirection="both" id="elc85_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="0.0" posEnd="20.0">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2120.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </electrificationSection>
+      </electrifications>
+      <etcsAreas>
+        <etcsArea id="trp86" mVersion="33">
+          <linearLocation id="trp86_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="0.0" posEnd="50.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2900.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </etcsArea>
+        <etcsArea id="trp105" mVersion="33">
+          <linearLocation id="trp105_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="100.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2900.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="600.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="100.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="100.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </etcsArea>
+        <etcsArea id="trp106" mVersion="33">
+          <linearLocation id="trp106_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="10.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2810.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="600.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </etcsArea>
+      </etcsAreas>
+      <keyLocksIS>
+        <keyLockIS id="klo10">
+          <name description="Naming rule: [roman numbers]" language="no" name="II "/>
+          <spotLocation applicationDirection="both" id="klo10_sloc01" netElementRef="ne_42" pos="20.0">
+            <linearCoordinate lateralSide="left" measure="2220.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SPV-803680" register="BaneData"/>
+        </keyLockIS>
+      </keyLocksIS>
+      <levelCrossingsIS>
+        <levelCrossingIS id="lcr18">
+          <name description="naming rule: location name" language="no" name="Rakkestad"/>
+          <linearLocation applicationDirection="both" id="lcr18_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="340.0" posEnd="360.0"/>
+          </linearLocation>
+          <spotLocation applicationDirection="normal" id="lcr18_sloc01" netElementRef="ne_42" pos="550.0">
+            <linearCoordinate measure="2750.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-PLO-809435" register="BaneData"/>
+        </levelCrossingIS>
+      </levelCrossingsIS>
+      <lines>
+        <line id="lin1">
+          <name language="no" name="Bergensbanen"/>
+          <linearLocation id="lin1_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_ms_4"/>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_ml_3"/>
+          </linearLocation>
+        </line>
+      </lines>
+      <operationalPoints>
+        <operationalPoint id="opp4">
+          <name description="desc" language="no" name="Oslo S"/>
+          <areaLocation id="al4">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_ms_4"/>
+          </areaLocation>
+          <spotLocation applicationDirection="normal" id="sl6_sloc01" netElementRef="ne_42" pos="300.0">
+            <linearCoordinate measure="2500.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <gmlLocations>
+            <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+              <gml4rail3:pos>59.91 10.75</gml4rail3:pos>
+            </point>
+          </gmlLocations>
+          <designator entry="OSL" register="SJN"/>
+          <opEquipment>
+            <ownsSignal ref="sig11"/>
+            <ownsSignal ref="sig46"/>
+            <ownsStoppingPlace ref="stp12"/>
+            <ownsStoppingPlace ref="stp98"/>
+            <ownsInfrastructureElement ref="ple7"/>
+          </opEquipment>
+          <opOperations>
+            <opOperation operationalType="station"/>
+          </opOperations>
+        </operationalPoint>
+      </operationalPoints>
+      <overCrossings>
+        <overCrossing constructionType="tunnel" id="tun17">
+          <name description="desc" language="no" name="Oslotunnelen"/>
+          <linearLocation applicationDirection="both" id="tun17_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="50.0" posEnd="150.0">
+              <linearCoordinateBegin measure="2850.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KU-TUN-873405" register="BaneData"/>
+        </overCrossing>
+      </overCrossings>
+      <platformEdges>
+        <platformEdge height="0.76" id="ple7">
+          <name description="desc" language="no" name="Test"/>
+          <linearLocation applicationDirection="both" id="ple7_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="250.0" posEnd="450.0">
+              <linearCoordinateBegin lateralSide="left" measure="2450.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2650.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-PLF-807354" register="BaneData"/>
+        </platformEdge>
+      </platformEdges>
+      <signalsIS>
+        <signalIS id="sig11" isSwitchable="true">
+          <name description="naming rule: [signal letter]+[signal number]" language="no" name="A101"/>
+          <spotLocation applicationDirection="normal" id="sig11_sloc01" netElementRef="ne_3" pos="100.0">
+            <linearCoordinate lateralSide="right" measure="2100.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-SIG-804897" register="BaneData"/>
+          <typeDesignator entry="§8-10" rulebook="TJN"/>
+          <isTrainMovementSignal/>
+          <signalConstruction positionAtTrack="right" type="light"/>
+        </signalIS>
+        <signalIS id="sig14" isSwitchable="false">
+          <spotLocation applicationDirection="normal" id="sig14_sloc01" netElementRef="ne_28" pos="100.0">
+            <linearCoordinate measure="2900.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SKT-800934" register="BaneData"/>
+          <typeDesignator entry="60F" rulebook="TJN"/>
+        </signalIS>
+        <signalIS id="sig46" isSwitchable="false">
+          <name description="naming rule: [signal letter]+[signal number]" language="no" name="L201"/>
+          <spotLocation applicationDirection="normal" id="sig46_sloc01" netElementRef="ne_42" pos="520.0">
+            <linearCoordinate measure="2720.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-SIG-804898" register="BaneData"/>
+          <typeDesignator entry="E35b" rulebook="TJN"/>
+          <isEtcsSignal/>
+          <isTrainMovementSignal/>
+          <signalConstruction type="virtual"/>
+        </signalIS>
+        <signalIS id="sig103" isSwitchable="true">
+          <name description="shunting signal to model shunting route" language="no" name="R21"/>
+          <spotLocation applicationDirection="normal" id="sig103_sloc01" netElementRef="ne_42" pos="478.0">
+            <linearCoordinate lateralSide="right" measure="2678.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <typeDesignator entry="§8-23" rulebook="TJN"/>
+          <isTrainMovementSignal/>
+          <signalConstruction positionAtTrack="right"/>
+        </signalIS>
+        <signalIS id="stp12_sig" isSwitchable="false">
+          <spotLocation applicationDirection="normal" id="stp12_sig_sloc01" netElementRef="ne_42" pos="430.0">
+            <linearCoordinate measure="2630.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SKT-896301" register="BaneData"/>
+          <isStopPost>
+            <refersToStoppingPlace ref="stp12"/>
+          </isStopPost>
+        </signalIS>
+      </signalsIS>
+      <speeds>
+        <speedSection id="sps19_1" maxSpeed="105.0">
+          <linearLocation id="sps19_1_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="450.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2650.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="0.0" posEnd="30.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2830.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-HAS-800372" register="BaneData"/>
+          <validForSpeedProfile ref="spprf2"/>
+        </speedSection>
+        <speedSection id="sps19_2" maxSpeed="100.0">
+          <linearLocation id="sps19_2_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="450.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2650.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="0.0" posEnd="150.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="0.0" posEnd="30.0">
+              <linearCoordinateBegin measure="2970.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-HAS-800372" register="BaneData"/>
+          <validForSpeedProfile ref="spprf1"/>
+        </speedSection>
+        <speedSection id="sps54_1" maxSpeed="60.0">
+          <linearLocation id="sps54_1_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="0.0" posEnd="50.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="0.0" posEnd="450.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2650.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <validForSpeedProfile ref="spprf1"/>
+        </speedSection>
+        <speedSection id="sps55_1" maxSpeed="100.0">
+          <linearLocation id="sps55_1_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="30.0" posEnd="0.0">
+              <linearCoordinateBegin measure="3000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2970.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="150.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2950.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="600.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="100.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="100.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <validForSpeedProfile ref="spprf1"/>
+        </speedSection>
+        <speedSection id="sps74_1" maxSpeed="40.0">
+          <linearLocation id="sps74_1_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="50.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2850.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="600.0" posEnd="0.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <validForSpeedProfile ref="spprf1"/>
+        </speedSection>
+      </speeds>
+      <stoppingPlaces>
+        <stoppingPlace id="stp12" isSignalized="true" trainLength="220.0" trainRelation="headOfTrain">
+          <spotLocation applicationDirection="normal" id="stp12_sloc01" netElementRef="ne_42" pos="430.0">
+            <linearCoordinate measure="2630.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SKT-896301" register="BaneData"/>
+          <validForTrainMovement type="passengerTrains"/>
+        </stoppingPlace>
+        <stoppingPlace id="stp98" isSignalized="false" trainLength="470.0" trainRelation="headOfTrain">
+          <spotLocation applicationDirection="normal" id="stp98_sloc01" netElementRef="ne_42" pos="520.0">
+            <linearCoordinate measure="2720.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <validForTrainMovement type="allTrains"/>
+        </stoppingPlace>
+      </stoppingPlaces>
+      <switchesIS>
+        <switchIS belongsToParent="cro27" id="cro27a" type="switchCrossingPart">
+          <name description="Naming rule: [number/number]" language="no" name="50/52"/>
+          <spotLocation applicationDirection="normal" id="cro27a_sloc01" intrinsicCoord="0.0" netElementRef="ne_28" pos="0.0">
+            <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <leftBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_28_0_45_1"/>
+          <rightBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_28_0_42_1"/>
+        </switchIS>
+        <switchIS belongsToParent="cro27" id="cro27b" type="switchCrossingPart">
+          <name description="Naming rule: [number/number]" language="no" name="50/52"/>
+          <spotLocation applicationDirection="reverse" id="cro27b_sloc01" intrinsicCoord="1.0" netElementRef="ne_42" pos="600.0">
+            <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <leftBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_34_0_42_1"/>
+          <rightBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_28_0_42_1"/>
+        </switchIS>
+        <switchIS id="cro27" type="singleSwitchCrossing">
+          <name description="Naming rule: [number/number]" language="no" name="50/52"/>
+          <spotLocation id="cro27_sloc01" intrinsicCoord="0.0" netElementRef="ne_28" pos="0.0">
+            <linearCoordinate measure="2800.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SPV-803681" register="BaneData"/>
+          <straightBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_28_0_42_1"/>
+          <straightBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_34_0_45_1"/>
+          <turningBranch branchingSpeed="30.0" joiningSpeed="30.0" netRelationRef="nr_28_0_45_1"/>
+        </switchIS>
+        <switchIS branchCourse="right" continueCourse="left" id="swi41" type="ordinarySwitch">
+          <name description="Naming rule: [Arabic number]" language="no" name="1"/>
+          <spotLocation applicationDirection="normal" id="swi41_sloc01" intrinsicCoord="0.0" netElementRef="ne_42" pos="0.0">
+            <linearCoordinate measure="2200.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-SPV-803680" register="BaneData"/>
+          <leftBranch branchingSpeed="50.0" joiningSpeed="50.0" netRelationRef="nr_42_0_70_1"/>
+          <rightBranch branchingSpeed="50.0" joiningSpeed="50.0" netRelationRef="nr_45_0_70_1"/>
+        </switchIS>
+      </switchesIS>
+      <tracks>
+        <track id="trc1" infrastructureManagerRef="oru102" mainDirection="both" type="mainTrack">
+          <name description="naming rule: [arabic numbers]" language="no" name="01"/>
+          <linearLocation applicationDirection="both" id="trc1_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_3" posBegin="0.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2100.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-SPO-800681" register="BaneData"/>
+          <trackBegin ref="ope1"/>
+          <trackEnd ref="sig11_trc"/>
+          <length type="physical" value="100.0"/>
+        </track>
+        <track id="trc2" infrastructureManagerRef="oru102" mainDirection="both" type="mainTrack">
+          <name description="naming rule: [arabic numbers]" language="no" name="1"/>
+          <linearLocation applicationDirection="both" id="trc2_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_70" posBegin="0.0" posEnd="100.0" sequence="1">
+              <linearCoordinateBegin measure="2100.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2200.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_42" posBegin="0.0" posEnd="600.0" sequence="2">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="0.0" posEnd="150.0" sequence="3">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="0.0" posEnd="30.0" sequence="4">
+              <linearCoordinateBegin measure="2970.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-SPO-800683" register="BaneData"/>
+          <trackBegin ref="sig11_trc"/>
+          <trackEnd ref="ope2"/>
+          <length type="physical" value="880.0"/>
+        </track>
+        <track id="trc3" mainDirection="both" type="sidingTrack">
+          <name description="naming rule: [arabic numbers]" language="no" name="3"/>
+          <linearLocation applicationDirection="both" id="trc3_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="0.0" posEnd="50.0">
+              <linearCoordinateBegin measure="2800.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2850.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-SPO-800685" register="BaneData"/>
+          <trackBegin ref="cro27"/>
+          <trackEnd ref="bus73"/>
+          <length type="physical" value="50.0"/>
+        </track>
+        <track id="trc4" infrastructureManagerRef="oru102" mainDirection="both" type="secondaryTrack">
+          <name description="naming rule: [arabic numbers]" language="no" name="2"/>
+          <linearLocation applicationDirection="both" id="trc4_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="0.0" posEnd="600.0">
+              <linearCoordinateBegin measure="2200.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2800.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+          <designator entry="KO-SPO-800684" register="BaneData"/>
+          <trackBegin ref="swi41"/>
+          <trackEnd ref="cro27"/>
+          <length type="physical" value="600.0"/>
+        </track>
+      </tracks>
+      <trainDetectionElements>
+        <trainDetectionElement id="tde15" type="axleCounter">
+          <name language="no" name="Tp(376/378)"/>
+          <spotLocation applicationDirection="both" id="tde15_sloc01" netElementRef="ne_3" pos="100.0">
+            <linearCoordinate measure="2100.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-TEL-823091" register="BaneData"/>
+        </trainDetectionElement>
+        <trainDetectionElement id="tde16" type="trackCircuit">
+          <spotLocation applicationDirection="both" id="tde16_sloc01" netElementRef="ne_42" pos="50.0">
+            <linearCoordinate measure="2250.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-ATB-856701" register="BaneData"/>
+        </trainDetectionElement>
+        <trainDetectionElement id="tde71" type="trackCircuit">
+          <spotLocation applicationDirection="both" id="tde71_sloc01" netElementRef="ne_45" pos="50.0">
+            <linearCoordinate measure="2250.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="SA-ATB-856702" register="BaneData"/>
+        </trainDetectionElement>
+        <trainDetectionElement id="tde91" type="trackCircuit">
+          <spotLocation applicationDirection="both" id="tde91_sloc01" netElementRef="ne_42" pos="520.0">
+            <linearCoordinate measure="2720.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+        </trainDetectionElement>
+        <trainDetectionElement id="swi41_cl_0" type="clearancePoint">
+          <spotLocation id="swi41_cl_0_sloc01" netElementRef="ne_42" pos="50.0"/>
+        </trainDetectionElement>
+        <trainDetectionElement id="swi41_cl_1" type="clearancePoint">
+          <spotLocation id="swi41_cl_1_sloc01" netElementRef="ne_45" pos="50.0"/>
+        </trainDetectionElement>
+        <trainDetectionElement id="cro27_cl_0" type="clearancePoint">
+          <spotLocation id="cro27_cl_0_sloc01" netElementRef="ne_28" pos="50.0"/>
+        </trainDetectionElement>
+        <trainDetectionElement id="cro27_cl_1" type="clearancePoint">
+          <spotLocation id="cro27_cl_1_sloc01" netElementRef="ne_34" pos="50.0"/>
+        </trainDetectionElement>
+      </trainDetectionElements>
+      <trainProtectionElements>
+        <trainProtectionElement id="trp21" trainProtectionSystem="FATC">
+          <linearLocation id="trp21_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="100.0" posEnd="150.0">
+              <linearCoordinateBegin measure="2900.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2950.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="0.0" posEnd="30.0">
+              <linearCoordinateBegin measure="2970.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="3000.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </trainProtectionElement>
+        <trainProtectionElement id="trp95" trainProtectionSystem="FATC">
+          <linearLocation id="trp95_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_66" posBegin="30.0" posEnd="0.0">
+              <linearCoordinateBegin measure="3000.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2970.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_28" posBegin="150.0" posEnd="100.0">
+              <linearCoordinateBegin measure="2950.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2900.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </trainProtectionElement>
+        <trainProtectionElement id="trp96" monitoring="none">
+          <linearLocation id="trp96_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_34" posBegin="50.0" posEnd="10.0">
+              <linearCoordinateBegin measure="2850.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2810.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </trainProtectionElement>
+      </trainProtectionElements>
+      <underCrossings>
+        <underCrossing constructionType="bridge" id="bri89">
+          <name language="no" name="Bruse"/>
+          <linearLocation applicationDirection="both" id="bri89_lloc">
+            <associatedNetElement keepsOrientation="true" netElementRef="ne_45" posBegin="250.0" posEnd="300.0">
+              <linearCoordinateBegin measure="2450.0" positioningSystemRef="lps01_lin1"/>
+              <linearCoordinateEnd measure="2500.0" positioningSystemRef="lps01_lin1"/>
+            </associatedNetElement>
+          </linearLocation>
+        </underCrossing>
+      </underCrossings>
+      <mileageChanges>
+        <mileageChange from="top65_mc_sloc01" id="top65_mc" to="top65_mc_sloc02" type="gap">
+          <spotLocation id="top65_mc_sloc01" intrinsicCoord="1.0" netElementRef="ne_28" pos="150.0">
+            <linearCoordinate measure="2950.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <spotLocation id="top65_mc_sloc02" intrinsicCoord="0.0" netElementRef="ne_66" pos="0.0">
+            <linearCoordinate measure="2970.0" positioningSystemRef="lps01_lin1"/>
+          </spotLocation>
+          <designator entry="KO-KJE-800025" register="BaneData"/>
+        </mileageChange>
+      </mileageChanges>
+    </functionalInfrastructure>
+    <infrastructureStates>
+      <infrastructureState id="iss1">
+        <elementState id="es_are101" refersToElement="are101" value="conceptual">
+          <name description="Remark: According to KVB-15-C-10000_00B.&#10;Elements marked with the status &quot;conceptual&quot; in the project area are based on a template for a 2-track station on a single-track line with ETCS (doc. no.: 202100192-11), adjusted to 740m effective train length for the Kongsvinger line according to effect package 14. (added by Torben Brand, 24.8.2023)" language="no" name=""/>
+        </elementState>
+        <elementState id="es_bal13" refersToElement="bal13" value="operational"/>
+        <elementState id="es_bal24" refersToElement="bal24" value="disabled">
+          <validityTime>
+            <period from="2023-07-10T00:00:00" to="2023-08-10T00:00:00"/>
+          </validityTime>
+        </elementState>
+        <elementState id="es_bor100" refersToElement="bor100" value="conceptual"/>
+        <elementState id="es_bor99" refersToElement="bor99" value="conceptual"/>
+        <elementState id="es_bri89" refersToElement="bri89" value="conceptual">
+          <validityTime>
+            <period from="2023-01-24T00:00:00"/>
+          </validityTime>
+        </elementState>
+        <elementState id="es_bus73" refersToElement="bus73" value="planned"/>
+        <elementState id="es_cro27" refersToElement="cro27" value="planned"/>
+        <elementState id="es_drl107" refersToElement="drl107" value="operational"/>
+        <elementState id="es_drl9" refersToElement="drl9" value="planned"/>
+        <elementState id="es_elc22" refersToElement="elc22" value="operational"/>
+        <elementState id="es_elc85" refersToElement="elc85" value="operational"/>
+        <elementState id="es_grc20" refersToElement="grc20" value="operational"/>
+        <elementState id="es_grc56" refersToElement="grc56" value="conceptual"/>
+        <elementState id="es_klo10" refersToElement="klo10" value="other:unknown"/>
+        <elementState id="es_lcr18" refersToElement="lcr18" value="closed">
+          <validityTime>
+            <period from="2022-12-10T00:00:00"/>
+          </validityTime>
+        </elementState>
+        <elementState id="es_ne_28" refersToElement="ne_28" value="operational"/>
+        <elementState id="es_ne_3" refersToElement="ne_3" value="operational"/>
+        <elementState id="es_ne_34" refersToElement="ne_34" value="planned"/>
+        <elementState id="es_ne_42" refersToElement="ne_42" value="operational"/>
+        <elementState id="es_ne_45" refersToElement="ne_45" value="operational"/>
+        <elementState id="es_ne_66" refersToElement="ne_66" value="operational"/>
+        <elementState id="es_ne_70" refersToElement="ne_70" value="operational"/>
+        <elementState id="es_opp4" refersToElement="opp4" value="operational"/>
+        <elementState id="es_oru102" refersToElement="oru102" value="operational"/>
+        <elementState id="es_ple7" refersToElement="ple7" value="operational"/>
+        <elementState id="es_rte104" refersToElement="rte104" value="operational"/>
+        <elementState id="es_rte76" refersToElement="rte76" value="conceptual"/>
+        <elementState id="es_sgb5" refersToElement="sgb5" value="planned"/>
+        <elementState id="es_sig103" refersToElement="sig103" value="operational"/>
+        <elementState id="es_sig11" refersToElement="sig11" value="planned"/>
+        <elementState id="es_sig14" refersToElement="sig14" value="disabled"/>
+        <elementState id="es_sig46" refersToElement="sig46" value="planned"/>
+        <elementState id="es_sl6_sloc01" refersToElement="sl6_sloc01" value="operational"/>
+        <elementState id="es_sps19_1" refersToElement="sps19_1" value="operational"/>
+        <elementState id="es_sps19_2" refersToElement="sps19_2" value="operational"/>
+        <elementState id="es_sps54_1" refersToElement="sps54_1" value="conceptual"/>
+        <elementState id="es_sps55_1" refersToElement="sps55_1" value="conceptual"/>
+        <elementState id="es_sps74_1" refersToElement="sps74_1" value="operational"/>
+        <elementState id="es_stp12" refersToElement="stp12" value="planned"/>
+        <elementState id="es_stp12_sig" refersToElement="stp12_sig" value="planned"/>
+        <elementState id="es_stp98" refersToElement="stp98" value="operational"/>
+        <elementState id="es_swi41" refersToElement="swi41" value="operational"/>
+        <elementState id="es_tde15" refersToElement="tde15" value="closed"/>
+        <elementState id="es_tde16" refersToElement="tde16" value="planned"/>
+        <elementState id="es_tde71" refersToElement="tde71" value="operational"/>
+        <elementState id="es_tde91" refersToElement="tde91" value="operational"/>
+        <elementState id="es_top65_mc" refersToElement="top65_mc" value="operational">
+          <name description="Remarks:test" language="no" name=""/>
+        </elementState>
+        <elementState id="es_trp105" refersToElement="trp105" value="operational"/>
+        <elementState id="es_trp106" refersToElement="trp106" value="operational"/>
+        <elementState id="es_trp21" refersToElement="trp21" value="operational"/>
+        <elementState id="es_trp86" refersToElement="trp86" value="operational"/>
+        <elementState id="es_trp95" refersToElement="trp95" value="operational"/>
+        <elementState id="es_trp96" refersToElement="trp96" value="operational"/>
+        <elementState id="es_trs87" refersToElement="trs87" value="operational"/>
+        <elementState id="es_trs92" refersToElement="trs92" value="operational"/>
+        <elementState id="es_tun17" refersToElement="tun17" value="operational"/>
+      </infrastructureState>
+    </infrastructureStates>
+    <genericLocations>
+      <genericArea id="are101">
+        <name description="Description: According to KVB-15-C-10000_00B. Elements marked with the status &quot;conceptual&quot; in the project area are based on a template for a 2-track station on a single-track line with ETCS (doc. no.: 202100192-11), adjusted to 740m effective train length for the Kongsvinger line according to effect package 14. (added by Torben Brand, 24.8.2023)" language="no" name="Project new bridge &quot;Bruse&quot;"/>
+        <location>
+          <circle radius="0">
+            <centerPoint>
+              <gml4rail3:pos>0 0</gml4rail3:pos>
+            </centerPoint>
+          </circle>
+        </location>
+        <isLimitedBy ref="bor99"/>
+        <isLimitedBy ref="bor100"/>
+      </genericArea>
+    </genericLocations>
+  </infrastructure>
+  <interlocking>
+    <assetsForInterlockings>
+      <assetsForInterlocking id="afi_01">
+        <tvdSections>
+          <tvdSection id="trs87">
+            <assetName language="no" name="1"/>
+            <hasDemarcatingTraindetector ref="tde15"/>
+            <hasDemarcatingTraindetector ref="tde16"/>
+            <hasDemarcatingTraindetector ref="tde71"/>
+          </tvdSection>
+          <tvdSection id="trs92">
+            <assetName language="no" name="01"/>
+            <hasDemarcatingTraindetector ref="tde16"/>
+            <hasDemarcatingTraindetector ref="tde91"/>
+          </tvdSection>
+        </tvdSections>
+        <switchesIL>
+          <switchIL id="swiIL41" isKeyLocked="true" localOperated="none">
+            <hasIndication ref="sin01"/>
+            <refersTo ref="swi41"/>
+            <hasGaugeClearanceMarker ref="swi41_cl_0"/>
+            <hasGaugeClearanceMarker ref="swi41_cl_1"/>
+            <hasTvdSection ref="trs87"/>
+            <branchLeft ref="ne_42"/>
+            <branchRight ref="ne_45"/>
+            <branchTip ref="ne_70"/>
+          </switchIL>
+          <switchIL id="croIL27a" isKeyLocked="false" localOperated="none">
+            <hasIndication ref="sin01"/>
+            <refersTo ref="cro27"/>
+            <relatedMovableElement ref="croIL27b"/>
+            <branchLeft ref="ne_45"/>
+            <branchRight ref="ne_42"/>
+          </switchIL>
+          <switchIL id="croIL27b" isKeyLocked="false" localOperated="none">
+            <hasIndication ref="sin01"/>
+            <refersTo ref="cro27"/>
+            <hasGaugeClearanceMarker ref="cro27_cl_0"/>
+            <hasGaugeClearanceMarker ref="cro27_cl_1"/>
+            <relatedMovableElement ref="croIL27a"/>
+            <branchLeft ref="ne_34"/>
+            <branchRight ref="ne_28"/>
+          </switchIL>
+        </switchesIL>
+        <derailersIL>
+          <derailerIL id="drlIL9" isKeyLocked="true" preferredPosition="passablePosition">
+            <refersTo ref="drl9"/>
+            <hasTvdSection ref="trs87"/>
+            <lockedTrack ref="trc2"/>
+          </derailerIL>
+          <derailerIL id="drlIL107" isKeyLocked="false" preferredPosition="derailingPosition">
+            <refersTo ref="drl107"/>
+            <lockedTrack ref="trc4"/>
+          </derailerIL>
+        </derailersIL>
+        <levelCrossingsIL>
+          <levelCrossingIL id="lcrIL18" typicalTimeToClose="PT10S">
+            <isLevelCrossingType ref="lc_type_Ba"/>
+            <refersTo ref="lcr18"/>
+          </levelCrossingIL>
+        </levelCrossingsIL>
+        <keyLocksIL>
+          <keyLockIL id="kloIL10">
+            <belongsToOperationalPoint ref="opp4"/>
+            <takesControlOf ref="drlIL9"/>
+            <takesControlOf ref="swiIL41"/>
+            <refersTo ref="klo10"/>
+            <hasTvdSection ref="trs87"/>
+          </keyLockIL>
+        </keyLocksIL>
+        <stationIndicators>
+          <stationIndicator id="sin01" usedFor="switchPositionIndicator"/>
+        </stationIndicators>
+        <signalsIL>
+          <signalIL function="entry" id="sigIL11" sightDistance="50.0">
+            <belongsToOperationalPoint ref="opp4"/>
+            <refersTo ref="sig11"/>
+          </signalIL>
+          <signalIL id="sigIL14">
+            <refersTo ref="sig14"/>
+          </signalIL>
+          <signalIL function="exit" id="sigIL46" isNotWired="true">
+            <belongsToOperationalPoint ref="opp4"/>
+            <refersTo ref="sig46"/>
+          </signalIL>
+          <signalIL function="shunting" id="sigIL103">
+            <refersTo ref="sig103"/>
+          </signalIL>
+        </signalsIL>
+        <routeReleaseGroupsRear>
+          <routeReleaseGroupRear id="prg_87">
+            <hasTvdSection ref="trs87"/>
+          </routeReleaseGroupRear>
+          <routeReleaseGroupRear id="prg_92">
+            <hasTvdSection ref="trs92"/>
+          </routeReleaseGroupRear>
+        </routeReleaseGroupsRear>
+        <routes>
+          <route id="rte76" priorityRank="0">
+            <designator entry="[BD code?]" register="BaneData"/>
+            <objectName description="naming rule:[entry signal name]&quot;-&quot;[exit signal name]" language="no" name="OSL A101---OSL L201"/>
+            <handlesRouteType ref="grt_n"/>
+            <facingSwitchInPosition inPosition="left">
+              <refersToSwitch ref="swiIL41"/>
+            </facingSwitchInPosition>
+            <routeEntry id="ren_rte76">
+              <refersTo ref="sigIL11"/>
+            </routeEntry>
+            <hasReleaseGroup ref="prg_87"/>
+            <hasReleaseGroup ref="prg_92"/>
+            <routeExit id="rex_rte76">
+              <refersTo ref="sigIL46"/>
+              <hasOverlap ref="ovl_46-27"/>
+            </routeExit>
+          </route>
+          <route id="rte104">
+            <objectName language="no" name="R21---OSL L201"/>
+            <handlesRouteType ref="grt_s"/>
+            <routeEntry id="ren_rte104">
+              <refersTo ref="sigIL103"/>
+            </routeEntry>
+            <routeExit id="rex_rte104">
+              <refersTo ref="sigIL46"/>
+            </routeExit>
+          </route>
+        </routes>
+        <overlaps>
+          <overlap id="ovl_46-27" overlapValidityTime="PT40S">
+            <relatedToTrackAsset ref="sigIL46"/>
+            <isLimitedBy ref="croIL27b"/>
+          </overlap>
+        </overlaps>
+      </assetsForInterlocking>
+    </assetsForInterlockings>
+    <signalBoxes>
+      <signalBox id="sgb5" model="NSB-77">
+        <designator entry="SA-SIK-800400" register="BaneData"/>
+        <hasName description="desc" language="no" name="OSL"/>
+        <belongsToOperationalPoint ref="opp4"/>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="kloIL10"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="sigIL11"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="tde15"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="tde16"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="lcrIL18"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="croIL27b"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="swiIL41"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="sigIL46"/>
+        </controlsTrackAsset>
+        <controlsTrackAsset>
+          <connectedTrackAsset ref="trs92"/>
+        </controlsTrackAsset>
+        <hasConfiguration technologyType="electromechanical"/>
+      </signalBox>
+    </signalBoxes>
+    <specificInfrastructureManagers>
+      <specificInfrastructureManager id="sim01">
+        <belongsToInfrastructureManager ref="im01"/>
+        <usesTypes>
+          <hasAspect genericAspect="informative" id="aspect_temp_id1"/>
+          <hasAspect genericAspect="closed" id="aspect_temp_id2"/>
+          <hasRouteType genericRouteType="normal" id="grt_n"/>
+          <hasRouteType genericRouteType="shunting" id="grt_s"/>
+          <hasLevelCrossingType controlType="fullControlled" id="lc_type_Ba">
+            <designator entry="Ba" register="BaneData"/>
+          </hasLevelCrossingType>
+        </usesTypes>
+      </specificInfrastructureManager>
+    </specificInfrastructureManagers>
+  </interlocking>
+  <visualizations>
+    <infrastructureVisualizations>
+      <infrastructureVisualization id="vis01" positioningSystemRef="sps01">
+        <linearElementProjection id="lep_ple7" refersToElement="ple7">
+          <coordinate x="90.0" y="20.0"/>
+          <coordinate x="130.0" y="20.0"/>
+        </linearElementProjection>
+        <linearElementProjection id="lep_trc1" refersToElement="trc1">
+          <coordinate x="0.0" y="20.0"/>
+          <coordinate x="20.0" y="20.0"/>
+        </linearElementProjection>
+        <linearElementProjection id="lep_trc2" refersToElement="trc2">
+          <coordinate x="20.0" y="20.0"/>
+          <coordinate x="200.0" y="20.0"/>
+        </linearElementProjection>
+        <linearElementProjection id="lep_trc3" refersToElement="trc3">
+          <coordinate x="160.0" y="20.0"/>
+          <coordinate x="180.0" y="40.0"/>
+        </linearElementProjection>
+        <linearElementProjection id="lep_trc4" refersToElement="trc4">
+          <coordinate x="40.0" y="20.0"/>
+          <coordinate x="60.0" y="0.0"/>
+          <coordinate x="140.0" y="0.0"/>
+          <coordinate x="160.0" y="20.0"/>
+        </linearElementProjection>
+        <spotElementProjection id="sep_ne_34_aps01_ic1" refersToElement="ne_34_aps01_ic1">
+          <coordinate x="160.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_66_aps01_ic2" refersToElement="ne_66_aps01_ic2">
+          <coordinate x="200.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_66_aps01_ic1" refersToElement="ne_66_aps01_ic1">
+          <coordinate x="190.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_28_aps01_ic1" refersToElement="ne_28_aps01_ic1">
+          <coordinate x="160.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_28_aps01_ic2" refersToElement="ne_28_aps01_ic2">
+          <coordinate x="190.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_70_aps01_ic1" refersToElement="ne_70_aps01_ic1">
+          <coordinate x="20.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_oru102" refersToElement="oru102">
+          <coordinate x="100.0" y="80.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_3_aps01_ic1" refersToElement="ne_3_aps01_ic1">
+          <coordinate x="0.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_42_aps01_ic2" refersToElement="ne_42_aps01_ic2">
+          <coordinate x="160.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_3_aps01_ic2" refersToElement="ne_3_aps01_ic2">
+          <coordinate x="20.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_42_aps01_ic1" refersToElement="ne_42_aps01_ic1">
+          <coordinate x="40.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_34_aps01_ic2" refersToElement="ne_34_aps01_ic2">
+          <coordinate x="180.0" y="40.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_opp4" refersToElement="opp4">
+          <coordinate x="100.0" y="50.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_sgb5" refersToElement="sgb5">
+          <coordinate x="120.0" y="50.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_45_aps01_ic3" refersToElement="ne_45_aps01_ic3">
+          <coordinate x="140.0" y="0.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_45_aps01_ic2" refersToElement="ne_45_aps01_ic2">
+          <coordinate x="60.0" y="0.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_45_aps01_ic4" refersToElement="ne_45_aps01_ic4">
+          <coordinate x="160.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_45_aps01_ic1" refersToElement="ne_45_aps01_ic1">
+          <coordinate x="40.0" y="20.0"/>
+        </spotElementProjection>
+        <spotElementProjection id="sep_ne_70_aps01_ic2" refersToElement="ne_70_aps01_ic2">
+          <coordinate x="40.0" y="20.0"/>
+        </spotElementProjection>
+      </infrastructureVisualization>
+    </infrastructureVisualizations>
+  </visualizations>
+</railML>
