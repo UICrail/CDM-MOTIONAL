@@ -8,7 +8,7 @@ The CDM repository mostly links into other repositories that are public by defau
 
 The CDM repository wiki will be populated in due time, mostly for guidance of non-participants.
 
-[About the CDM, its history, and rationale, see the Wiki home page.]([https://github.com/UICrail/CDM-MOTIONAL/wiki/00-%E2%80%90-Home](https://github.com/UICrail/CDM-MOTIONAL/wiki))
+[About the CDM, its history, and rationale, see the Wiki home page.](https://github.com/UICrail/CDM-MOTIONAL/wiki)
 
 # Main repositories
 Currently, following repositories are available:
