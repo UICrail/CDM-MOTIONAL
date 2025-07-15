@@ -26,5 +26,10 @@ Under the hood, the CDM also leverages established ontologies or schemas like [I
 
 In addition, ongoing tasks are summed up under the (non-public) [MOTIONAL "project"](https://github.com/orgs/UICrail/projects/3) (in the sense of Github).
                                                                                                                               
-                                                                                                                              
-                                                                                                                          
+# About RDF/OWL
+
+The CDM heavily rests on Semantic Web technologies, and in particular RDF/OWL as a formal language. For introduction to RDF/OWL, we recommend:
+* Demystifying OWL for the Enterprise, by Michael Uschold. 237 pages. (c) Springer Nature Switzerland AG 2022, ISBN:978-3-031-79481-0. *clear and easy introduction for absolute beginner, with practical examples using Protégé desktop*.
+* An introduction to ontology engineering, by C. Maria Keet. 318 pages. (c) Individual author and college publications 2018 (http://www.collegepublications.co.uk). ISBN 978-1-84890-295-4. *with wider scope and historical depth*.
+
+Besides, there are many introductory papers or slides available on internet, but these cannot match the paedagogic qualities of these two books.
