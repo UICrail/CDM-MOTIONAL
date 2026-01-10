@@ -13,7 +13,7 @@ The CDM repository wiki will be populated in due time, mostly for guidance of no
 # Main repositories
 Currently, following main repositories are available (some of them temporarily private, awaiting IPR and licensing clarification):
 
-* [SemanticRSM](https://github.com/UICrail/SemanticRSM), which currently includes infrastructure topology and geometry, as well as rolling stock elements. Other RSM areas will be added later, as packages are rewritten in RDF/OWL.
+* [CDM-RSM](https://github.com/UICrail/CDM-RSM), which includes infrastructure topology, geometry, and localisation. Other RSM areas may be added later, as packages are rewritten in RDF/OWL.
 * [CDM-RST](https://github.com/UICrail/CDM-RST), about rolling stock.
 * [CDM-Telematics](https://github.com/UICrail/CDM-Telematics), about railway train operations rather than telematics (to be renamed).
 * [CDM-IFC](https://github.com/UICrail/CDM-IFC), providing backgrounds regarding [IFC](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) (Industry Foundation Classes), by [buildingSMART International](https://www.buildingsmart.org/), and their usage in the CDM.
